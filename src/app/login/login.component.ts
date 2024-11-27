@@ -36,7 +36,7 @@ export class LoginFormComponent {
 
     this.loginService.loginUser(user).subscribe({
       next: () => {
-        this.router.navigate(['user_index']);
+        this.router.navigate(['users']);
       },
       error: (error) => {
         console.log('Status Code:', error.status);

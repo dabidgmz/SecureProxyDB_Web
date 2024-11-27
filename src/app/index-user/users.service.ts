@@ -9,7 +9,7 @@ import { environment } from '../../environments/environment.development';
   providedIn: 'root'
 })
 export class UsersService {
-  url : String = "Get_User"
+  url : String = "Users"
   constructor(private http: HttpClient) { }
   index() : Observable<Modelo<User[]>> {
     return this.http.get<Modelo<User[]>>(environment.apiUrl + this.url);

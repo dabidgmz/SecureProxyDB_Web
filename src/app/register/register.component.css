@@ -1,0 +1,118 @@
+/* Configuración básica del cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e9d8ff; /* Fondo púrpura claro */
+  }
+  
+  /* Contenedor principal */
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  /* Caja de inicio de sesión */
+  .login-box {
+    width: 320px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #d1c4e9; /* Borde púrpura suave */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(128, 0, 128, 0.2); /* Sombra púrpura */
+    text-align: center;
+  }
+  
+  /* Icono de perfil */
+  .profile-icon img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    border: 2px solid #7e57c2; /* Contorno púrpura */
+  }
+  
+  /* Título del formulario */
+  .form-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #4a148c; /* Título púrpura oscuro */
+  }
+  
+  /* Grupo de entrada */
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  .input-group label {
+    display: flex;
+    align-items: center;
+    border: 1px solid #b39ddb; /* Borde púrpura pastel */
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #f3e5f5; /* Fondo lavanda */
+  }
+  
+  .input-group .icon {
+    margin-right: 10px;
+    color: #7b1fa2; /* Color del icono */
+  }
+  
+  .input-group input {
+    width: 100%;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 14px;
+    color: #4a148c; /* Texto púrpura oscuro */
+  }
+  
+  /* Opciones del formulario */
+  .options {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-size: 12px;
+    color: #6a1b9a; /* Texto púrpura */
+  }
+  
+  .options .checkbox {
+    display: flex;
+    align-items: center;
+  }
+  
+  .options .forgot {
+    text-decoration: none;
+    color: #8e24aa; /* Enlace interactivo púrpura */
+    cursor: pointer;
+  }
+  
+  .options .forgot:hover {
+    text-decoration: underline;
+  }
+  
+  /* Botón de inicio de sesión */
+  .login-btn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #6a1b9a; /* Botón púrpura */
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .login-btn:hover {
+    background-color: #4a148c; /* Botón púrpura oscuro */
+    transform: scale(1.05); /* Efecto zoom */
+  }
+  

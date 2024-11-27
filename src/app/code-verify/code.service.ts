@@ -9,7 +9,7 @@ import { BehaviorSubject } from 'rxjs';
   providedIn: 'root'
 })
 export class CodeService{
-  private eUrl: string = "confirm-email";
+  private eUrl: string = "ConfirmEmail";
 
   constructor(private http: HttpClient) { }
 

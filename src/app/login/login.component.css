@@ -1,0 +1,109 @@
+/* Configuración básica del cuerpo */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f3e8ff; /* Fondo lavanda claro */
+}
+
+/* Contenedor principal */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+/* Caja de inicio de sesión */
+.login-box {
+  width: 320px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #d1c4e9; /* Borde púrpura suave */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(128, 0, 128, 0.1); /* Sombra púrpura */
+  text-align: center;
+}
+
+/* Icono de perfil */
+.profile-icon img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  border: 2px solid #9c27b0; /* Contorno púrpura vibrante */
+}
+
+/* Grupo de entrada */
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ba68c8; /* Borde púrpura suave */
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #f9f4ff; /* Fondo lavanda */
+}
+
+.input-group .icon {
+  margin-right: 10px;
+  color: #7c4dff; /* Iconos púrpura */
+}
+
+.input-group input {
+  width: 100%;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 14px;
+  color: #4b0082; /* Texto púrpura profundo */
+}
+
+/* Opciones debajo del formulario */
+.options {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  font-size: 12px;
+  color: #6a0dad; /* Texto púrpura suave */
+}
+
+.options .checkbox {
+  display: flex;
+  align-items: center;
+}
+
+.options .forgot {
+  text-decoration: none;
+  color: #8e24aa; /* Texto interactivo púrpura oscuro */
+  cursor: pointer;
+}
+
+.options .forgot:hover {
+  text-decoration: underline;
+}
+
+/* Botón de inicio de sesión */
+.login-btn {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #8e24aa; /* Botón púrpura oscuro */
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.login-btn:hover {
+  background-color: #6a1b9a; /* Botón púrpura más oscuro */
+  transform: scale(1.05); /* Efecto de zoom */
+}

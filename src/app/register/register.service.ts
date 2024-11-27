@@ -8,7 +8,7 @@ import { environment } from '../../environments/environment.development'; // Cam
   providedIn: 'root',
 })
 export class RegisterService {
-  private url: string = 'Register_User'; 
+  private url: string = 'Register'; 
 
   constructor(private http: HttpClient) {}
 
