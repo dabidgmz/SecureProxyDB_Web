@@ -22,7 +22,7 @@ export class IndexUsersComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    const socket = io("ws://127.0.0.1:3333");
+    const socket = io("ws://143.110.235.125:3333");
 
     socket.on("connect", () => {
       console.log("Conectado al servidor");

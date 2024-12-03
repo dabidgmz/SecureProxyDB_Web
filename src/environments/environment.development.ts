@@ -5,5 +5,5 @@
 
 //Development
 export const environment = {
-    apiUrl: 'http://143.110.235.125/api/',
+    apiUrl: 'http://143.110.235.125:3333/api/',
 };
